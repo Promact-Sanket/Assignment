@@ -1,0 +1,40 @@
+ Provide commands for below operation
+
+- Command to initialize git repository  
+$git init
+
+- Command to clone remote repository  
+$git clone "URL"
+
+- Command to stage all changes  
+$git add . or git add -A
+
+- Command to view state of working directory and staging area  
+$git status
+
+- Command to create new branch  
+$git branch new_branch
+
+- Command to change branch  
+$git checkout new_branch
+
+- Command to clean staging area   
+$git reset --mixed
+
+- Command to get commits and changes from remote branch (It should not merge changes in current branch). 
+$git fetch
+
+- Command to get commits and changes from remote branch (It should merge changes in current branch). 
+$git pull
+
+- Command to cherry pick commit which SHA => 092018283103810930  
+$git cherry-pick 092018283103810930
+
+- Command to push branch  
+$git push origin branch_name
+
+- Command to delete remote branch 
+$git push origin --delete branch_name
+
+- Command to do iterative rebase 
+$git rebase -i commitid
